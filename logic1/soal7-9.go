@@ -1,18 +1,25 @@
 package logic1
 
-// function menerima parameter n, initial, dan step lalu mengembalikan variabel "slice" tipe slice 1D
-func LogicAscDesc(n int, initial int, step int) (slice []int) {
-	slice = make([]int, n)
-	numPoint := initial
+func MatriksPattern(n int, init int, step int) []int {
+	result := make([]int, n)
+	value := init
 
-	for i := 0; i < n; i++ {
-		slice[i] = numPoint
+	mid := n / 2 //cari index tengah
 
-		if i <= n/2 {
-			numPoint += step
-		} else {
-			numPoint -= step
-		}
+	// First half (incrementing)
+	for i := 0; i < mid; i++ {
+		result[i] = value
+		value += step
 	}
-	return slice
+	// Middle index (continuing +2 if n is odd)
+	result[mid] = value
+	if n%2 == 1 {
+		value += step
+	}
+	// Second half (decrementing)
+	for i := mid; i < n; i++ {
+		value -= step
+		result[i] = value
+	}
+	return result
 }

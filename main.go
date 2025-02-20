@@ -50,8 +50,26 @@ func main() {
 
 	//logic 1 no.7
 	fmt.Println("Logic 1 no.7")
-	slice1_7 := logic1.LogicAscDesc(10, 1, 2)
-	go_print_slice.PrintSlice(slice1_7)
+	slice1_7_1 := logic1.MatriksPattern(10, 1, 2)
+	slice1_7_2 := logic1.MatriksPattern(11, 1, 2)
+	go_print_slice.PrintSlice(slice1_7_1)
+	go_print_slice.PrintSlice(slice1_7_2)
+	fmt.Println()
+
+	//logic 1 no.8
+	fmt.Println("Logic 1 no.8")
+	slice1_8_1 := logic1.MatriksPattern(10, 2, 2)
+	slice1_8_2 := logic1.MatriksPattern(11, 2, 2)
+	go_print_slice.PrintSlice(slice1_8_1)
+	go_print_slice.PrintSlice(slice1_8_2)
+	fmt.Println()
+
+	//logic 1 no.9
+	fmt.Println("Logic 1 no.9")
+	slice1_9_1 := logic1.MatriksPattern(10, 3, 3)
+	slice1_9_2 := logic1.MatriksPattern(11, 3, 3)
+	go_print_slice.PrintSlice(slice1_9_1)
+	go_print_slice.PrintSlice(slice1_9_2)
 	fmt.Println()
 
 	//logic 2 no.1
