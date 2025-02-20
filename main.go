@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"go-basic-logic/logic1"
+	"go-basic-logic/logic3"
 )
 
 import (
@@ -17,6 +18,42 @@ func main() {
 	go_print_slice.PrintSlice(slice1_1)
 	fmt.Println()
 
+	//logic 1 no.2
+	fmt.Println("Logic 1 no.2")
+	slice1_2 := logic1.Logic1AscStep(10, 2, 2)
+	go_print_slice.PrintSlice(slice1_2)
+	fmt.Println()
+
+	//logic 1 no.3
+	fmt.Println("Logic 1 no.3")
+	slice1_3 := logic1.Logic1AscStep(10, 3, 3)
+	go_print_slice.PrintSlice(slice1_3)
+	fmt.Println()
+
+	//logic 1 no.4
+	fmt.Println("Logic 1 no.4")
+	slice1_4 := logic1.Logic1DescStep(10, 19, 2)
+	go_print_slice.PrintSlice(slice1_4)
+	fmt.Println()
+
+	//logic 1 no.5
+	fmt.Println("Logic 1 no.5")
+	slice1_5 := logic1.Logic1DescStep(10, 20, 2)
+	go_print_slice.PrintSlice(slice1_5)
+	fmt.Println()
+
+	//logic 1 no.6
+	fmt.Println("Logic 1 no.6")
+	slice1_6 := logic1.Logic1DescStep(10, 30, 3)
+	go_print_slice.PrintSlice(slice1_6)
+	fmt.Println()
+
+	//logic 1 no.7
+	fmt.Println("Logic 1 no.7")
+	slice1_7 := logic1.LogicAscDesc(10, 1, 2)
+	go_print_slice.PrintSlice(slice1_7)
+	fmt.Println()
+
 	//logic 2 no.1
 	fmt.Println("Logic 2 no.1")
 	slice2_1 := logic2.Matriks1(9)
@@ -29,10 +66,34 @@ func main() {
 	go_print_slice.PrintSlice2(slice2_2)
 	fmt.Println()
 
+	//logic 2 no.3
+	fmt.Println("Logic 2 no.3")
+	slice2_3 := logic2.Matriks3(9)
+	go_print_slice.PrintSlice2(slice2_3)
+	fmt.Println()
+
+	//logic 2 no.4
+	fmt.Println("Logic 2 no.4")
+	slice2_4 := logic2.Matriks4(9)
+	go_print_slice.PrintSlice2(slice2_4)
+	fmt.Println()
+
+	//logic 2 no.5
+	fmt.Println("Logic 2 no.5")
+	slice2_5 := logic2.Matriks5(9)
+	go_print_slice.PrintSlice2(slice2_5)
+	fmt.Println()
+
 	//logic 2 no.6
 	fmt.Println("Logic 2 no.6")
 	slice2_6 := logic2.Matriks6(9)
 	go_print_slice.PrintSlice2(slice2_6)
+	fmt.Println()
+
+	//logic 2 no.7
+	fmt.Println("Logic 2 no.7")
+	slice2_7 := logic2.Matriks7(9)
+	go_print_slice.PrintSlice2(slice2_7)
 	fmt.Println()
 
 	//logic 2 no.8
@@ -63,6 +124,18 @@ func main() {
 	fmt.Println("Logic 2 no.12")
 	slice2_12 := logic2.Matriks12(9)
 	go_print_slice.PrintSlice2(slice2_12)
+	fmt.Println()
+
+	//logic 2 no.13
+	fmt.Println("Logic 2 no.13")
+	slice2_13 := logic2.Matriks13(9)
+	go_print_slice.PrintSlice2(slice2_13)
+	fmt.Println()
+
+	//logic 3 no.1
+	fmt.Println("Logic 3 no.1")
+	slice3_1 := logic3.Matriks1(9)
+	go_print_slice.PrintSlice2(slice3_1)
 	fmt.Println()
 
 }
