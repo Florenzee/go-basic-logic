@@ -1,5 +1,6 @@
 package logic1
 
+// n = jumlah index, init = nilai awal, step = nilai yg ditambahkan
 func MatriksPattern(n int, init int, step int) []int {
 	result := make([]int, n)
 	value := init
