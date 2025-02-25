@@ -156,4 +156,40 @@ func main() {
 	go_print_slice.PrintSlice2(slice3_1)
 	fmt.Println()
 
+	//logic 3 no.2
+	fmt.Println("Logic 3 no.2")
+	slice3_2 := logic3.Matriks2(9)
+	go_print_slice.PrintSlice2(slice3_2)
+	fmt.Println()
+
+	//logic 3 no.3
+	fmt.Println("Logic 3 no.3")
+	slice3_3 := logic3.Matriks3(9)
+	go_print_slice.PrintSlice2(slice3_3)
+	fmt.Println()
+
+	//logic 3 no.4
+	fmt.Println("Logic 3 no.4")
+	slice3_4 := logic3.Matriks4(9)
+	go_print_slice.PrintSlice2(slice3_4)
+	fmt.Println()
+
+	//logic 3 no.7
+	fmt.Println("Logic 3 no.7")
+	slice3_7 := logic3.Matriks7(9)
+	go_print_slice.PrintSlice2(slice3_7)
+	fmt.Println()
+
+	//logic 3 no.8
+	fmt.Println("Logic 3 no.8")
+	slice3_8 := logic3.Matriks8(9)
+	go_print_slice.PrintSlice2(slice3_8)
+	fmt.Println()
+
+	//logic 3 no.14
+	fmt.Println("Logic 3 no.14")
+	slice3_14 := logic3.Matriks14(9)
+	go_print_slice.PrintSlice2(slice3_14)
+	fmt.Println()
+
 }
