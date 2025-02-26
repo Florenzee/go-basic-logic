@@ -174,6 +174,12 @@ func main() {
 	go_print_slice.PrintSlice2(slice3_4)
 	fmt.Println()
 
+	//logic 3 no.5 (value salah, pattern bener)
+	fmt.Println("Logic 3 no.5")
+	slice3_5 := logic3.Matriks5(9)
+	go_print_slice.PrintSlice2(slice3_5)
+	fmt.Println()
+
 	//logic 3 no.7
 	fmt.Println("Logic 3 no.7")
 	slice3_7 := logic3.Matriks7(9)
@@ -184,6 +190,12 @@ func main() {
 	fmt.Println("Logic 3 no.8")
 	slice3_8 := logic3.Matriks8(9)
 	go_print_slice.PrintSlice2(slice3_8)
+	fmt.Println()
+
+	//logic 3 no.13
+	fmt.Println("Logic 3 no.13")
+	slice3_13 := logic3.Matriks13(9)
+	go_print_slice.PrintSlice2(slice3_13)
 	fmt.Println()
 
 	//logic 3 no.14
