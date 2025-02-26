@@ -6,8 +6,8 @@ import (
 
 func Matriks7(n int) (result [][]int) {
 	result = go_print_slice.CreateSlice(n)
-	num := 1
 	nTengah := (n - 1) / 2
+	num := 1
 
 	for i := 0; i <= nTengah; i++ {
 		for j := 0; j < n; j++ {
